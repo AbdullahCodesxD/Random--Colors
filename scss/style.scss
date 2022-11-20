@@ -7,38 +7,42 @@ $font-a: 'Roboto', sans-serif;
 $font-b: 'Saira Condensed', sans-serif;
 
 body {
-  background-color: #f6f6f6;
-  //   background-color: ;
+  background-image: linear-gradient(90deg, #fff 47%, #000 0%, #000 50%);
+  height: 100%;
 }
 
 .container {
   max-width: 1100px;
   padding: 1rem;
+  background-image: inherit;
   .heading {
     font-family: $font-b;
     font-size: 1.7rem;
-    // opacity: 0.8;
-    color: #222;
+    color: #f4f4f4;
+    mix-blend-mode: difference;
     margin-bottom: 2rem;
     text-align: center;
   }
   .lead {
     text-align: center;
     font-family: $font-b;
-    opacity: 1;
-    color: #222;
-    opacity: 0.8;
-    font-size: 0.95rem;
+    color: #fff;
+    font-weight: bold;
+    mix-blend-mode: difference;
+    font-size: 1rem;
   }
   .btn {
     outline: none;
     border: none;
     padding: 0.7rem 1.5rem;
-    color: #f4f4f4;
+    color: #000;
+    font-weight: bold;
     font-family: $font-b;
-    background-image: linear-gradient(45deg, #222, #777);
     border-radius: 5px;
+    position: relative;
+    right: 9px;
     cursor: pointer;
+    mix-blend-mode: difference;
     display: block;
     margin: 0.9rem auto;
   }
