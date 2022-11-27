@@ -45,8 +45,8 @@ btn.addEventListener('click', function () {
     );
     // colors.children.de;
     colors.style.background = `${str}`;
-    console.log(`${str}`);
-    console.log(colors);
+//     console.log(`${str}`);
+//     console.log(colors);
   });
   //   console.log(str);
 });
